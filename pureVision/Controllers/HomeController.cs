@@ -13,6 +13,13 @@ namespace pureVision.Controllers
             return View();
         }
 
+        public ActionResult Clients()
+        {
+            ViewBag.Message = "Client page.";
+
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
